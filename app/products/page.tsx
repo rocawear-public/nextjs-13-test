@@ -7,6 +7,8 @@ async function getProducts() {
 }
 export default function Products() {
   const products = use(getProducts());
+  //visible on server console
+  console.log(products);
 
   return (
     <main className="flex flex-col">

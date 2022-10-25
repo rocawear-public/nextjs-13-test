@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Counter from './counter';
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
           Nested Products
         </Link>
       </div>
+
+      <Counter />
     </main>
   );
 }
